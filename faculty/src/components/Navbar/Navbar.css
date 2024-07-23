@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.containerr{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerr span{
+    cursor: pointer;
+}
+.navbar .logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar .container .profile{
+    width: 40px;
+}

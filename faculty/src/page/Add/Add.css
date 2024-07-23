@@ -1,0 +1,83 @@
+.add {
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #3f3f3f; /* Optional: background color for better contrast */
+    border-radius: 8px; /* Optional: rounded corners for better aesthetics */
+  }
+  
+  .add form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .add-product-name,
+  .add-product-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .add-product-name input,
+  .add-product-description textarea {
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Optional: rounded corners for better aesthetics */
+    background-color: #fff; /* Ensure readability */
+    color: #333; /* Ensure readability */
+  }
+  
+  .add-category-price {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-category-price select {
+    max-width: 200px; /* Increase width for better UX */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Optional: rounded corners for better aesthetics */
+  }
+  
+  .add-btn {
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px; /* Optional: rounded corners for better aesthetics */
+    align-self: flex-start; /* Align button to the start of the form */
+  }
+  
+  .add-btn:hover {
+    background-color: #444; /* Change color on hover */
+  }
+  
+  /* Styles for the file input */
+  .add input[type="file"] {
+    padding: 30px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    background-color: #fff; 
+    color: #333; 
+    cursor: pointer; 
+  }
+  
+  /* Ensure cross-browser compatibility */
+  .add input[type="file"]::-webkit-file-upload-button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px; /* Optional: rounded corners for better aesthetics */
+  }
+  
+  .add input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #eee; /* Change color on hover */
+  }
+  

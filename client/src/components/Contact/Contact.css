@@ -1,0 +1,15 @@
+.contact{
+    display: flex;
+    color: white;
+    min-height: 70vh;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact input{
+  padding: 12px 100px;
+}
